@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar class="pt-3 app-header ">
+    <div class="d-flex justify-content-between w-100">
+      <ion-icon  color="primary" size="large" name="menu-outline" class="pl-3 menu-icon"></ion-icon>
+      <img src="../../assets/images/avataaars.svg"  width="40px" height="40px" class="mr-4 mt-1 profile rounded-circle">
+    </div>
+   
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-router-outlet></ion-router-outlet>
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom" class="custom-tab">
+    <ion-tab-button tab="tab1" class="custom-tab-class" (click)="selectTab('home')">
+      <div class="d-flex tab-icon" [ngClass]="{'active-tab':selectedTab==='home'}">
+        <img src="../../assets/images/home-icon.png" width="20px" height="20px" class="mr-1 active-image">
+        <span class="ml-1 selected-text" *ngIf="selectedTab==='home'">Home</span>
+      </div>
+      
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2" class="custom-tab-class" (click)="selectTab('cart')">
+      <div class="d-flex tab-icon" [ngClass]="{'active-tab':selectedTab==='cart'}">
+        <img src="../../assets/images/bag-icon.png" class="active-image" width="20px" height="20px" class="mr-1 active-image">
+        <span class="ml-1 selected-text" *ngIf="selectedTab==='cart'">Cart</span>
+      </div>
+      
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3" class="custom-tab-class" (click)="selectTab('alert')">
+      <div class="d-flex tab-icon" [ngClass]="{'active-tab':selectedTab==='alert'}">
+        <img src="../../assets/images/bell-icon.png" class="active-image" width="20px" height="20px" class="mr-1 active-image">
+        <span class="ml-1  selected-text"  *ngIf="selectedTab==='alert'">Alert</span>
+      </div>
+      
+    </ion-tab-button>
+    <ion-tab-button tab="tab4" class="custom-tab-class" (click)="selectTab('profile')">
+      <div class="d-flex tab-icon" [ngClass]="{'active-tab':selectedTab==='profile'}">
+        <img src="../../assets/images/profile-icon.png" class="active-image" width="20px" height="20px" class="mr-1 active-image">
+        <span class="ml-1 selected-text" *ngIf="selectedTab==='profile'">Profile</span>
+      </div>
+      
+    </ion-tab-button>
+
+
+  </ion-tab-bar>
+
+</ion-tabs>

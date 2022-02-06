@@ -1,0 +1,108 @@
+.title-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title-content{
+    margin-top: 6rem;
+    
+}
+.custom-input{
+
+    border-radius: 10px ;
+    display: flex;
+   
+    background-color: #D2D2D2;
+}
+.search-icon{
+    margin-top:1rem;
+    margin-left: 1rem;
+  
+    margin-right: 0.3rem;
+}
+.filter-icon
+{    background-color: 	#008080;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+.custom-input-field{
+    padding-right: 0.3rem !important;
+}
+.section-label{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.activity-image{
+    box-shadow: -2px 1px 19px #ccc;
+    border-radius: 10px;
+}
+
+.section-image-text{
+    font-size: 10px;
+    font-weight: bold;
+}
+.card-item{
+    border: 1px solid whitesmoke;
+
+    border-radius: 15px;
+    background: white;
+    height: fit-content;
+    width: 48%;
+    padding:0.5rem;
+    box-shadow: -2px 1px 19px #ccc;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+    .card-item {
+      flex: 0 0 auto;
+      margin-right: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  .card-image{
+      border-radius: 10px;
+  }
+  .card-item-header{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold ;
+    font-size: 14px;
+    color: black;
+  }
+  .card-item-description{
+      font-weight: 500;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 14px;
+      color: #43485c;
+  }
+  .rating-success{
+      border: 1px solid #4BB543;
+      border-radius: 15px;
+      font-size: 12px;
+
+  }
+  .rating-warning{
+    border: 1px solid #FFCC00 ;
+    border-radius: 15px;
+    font-size: 12px;
+
+}
+  .rating-star{
+    height: 5px;
+  }
+  .activity-icon{
+    margin-right: 0.8rem;
+  }
+  .safety-rating-text{
+    padding-top: 0.35rem;
+  }
+  .tree-icon{
+    margin-left: 0.7rem !important;
+  }
+  .ski-icon{
+    margin-left: 0.4rem;
+  }
